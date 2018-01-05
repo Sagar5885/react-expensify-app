@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render NotFoundPage correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    404 Not Found! 
+    <Link
+        replace={false}
+        to="/"
+    >
+        Go Home
+    </Link>
+</div>,
+  "nodes": Array [
+    <div>
+      404 Not Found! 
+      <Link
+            replace={false}
+            to="/"
+      >
+            Go Home
+      </Link>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <NotFoundPage />,
+    "_instance": null,
+    "_newState": null,
+    "_rendered": <div>
+      404 Not Found! 
+      <Link
+            replace={false}
+            to="/"
+      >
+            Go Home
+      </Link>
+</div>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <NotFoundPage />,
+}
+`;
