@@ -9,11 +9,13 @@ ShallowWrapper {
   },
   "length": 1,
   "node": <div>
+    <Connect(ExpensesSummary) />
     <Connect(ExpenseListFilters) />
     <Connect(ExpenseList) />
 </div>,
   "nodes": Array [
     <div>
+      <Connect(ExpensesSummary) />
       <Connect(ExpenseListFilters) />
       <Connect(ExpenseList) />
 </div>,
@@ -25,6 +27,7 @@ ShallowWrapper {
     "_instance": null,
     "_newState": null,
     "_rendered": <div>
+      <Connect(ExpensesSummary) />
       <Connect(ExpenseListFilters) />
       <Connect(ExpenseList) />
 </div>,
