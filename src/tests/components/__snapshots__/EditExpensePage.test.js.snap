@@ -1,3 +1,143 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render EditExpensePage 1`] = `undefined`;
+exports[`should render EditExpensePage 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <ExpenseForm
+        expense={
+            Object {
+                "amount": 4500,
+                "createdAt": 345600000,
+                "description": "Credit Card",
+                "id": "3",
+                "note": "",
+              }
+        }
+        onSubmit={[Function]}
+    />
+    <button
+        onClick={[Function]}
+    >
+        Remove
+    </button>
+</div>,
+  "nodes": Array [
+    <div>
+      <ExpenseForm
+            expense={
+                  Object {
+                        "amount": 4500,
+                        "createdAt": 345600000,
+                        "description": "Credit Card",
+                        "id": "3",
+                        "note": "",
+                      }
+            }
+            onSubmit={[Function]}
+      />
+      <button
+            onClick={[Function]}
+      >
+            Remove
+      </button>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <EditExpensePage
+      editExpense={[Function]}
+      expense={
+            Object {
+                  "amount": 4500,
+                  "createdAt": 345600000,
+                  "description": "Credit Card",
+                  "id": "3",
+                  "note": "",
+                }
+      }
+      history={
+            Object {
+                  "push": [Function],
+                }
+      }
+      removeExpense={[Function]}
+/>,
+    "_instance": EditExpensePage {
+      "context": Object {},
+      "onRemove": [Function],
+      "onSubmit": [Function],
+      "props": Object {
+        "editExpense": [Function],
+        "expense": Object {
+          "amount": 4500,
+          "createdAt": 345600000,
+          "description": "Credit Card",
+          "id": "3",
+          "note": "",
+        },
+        "history": Object {
+          "push": [Function],
+        },
+        "removeExpense": [Function],
+      },
+      "refs": Object {},
+      "state": Object {},
+      "updater": Updater {
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": null,
+    "_rendered": <div>
+      <ExpenseForm
+            expense={
+                  Object {
+                        "amount": 4500,
+                        "createdAt": 345600000,
+                        "description": "Credit Card",
+                        "id": "3",
+                        "note": "",
+                      }
+            }
+            onSubmit={[Function]}
+      />
+      <button
+            onClick={[Function]}
+      >
+            Remove
+      </button>
+</div>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <EditExpensePage
+    editExpense={[Function]}
+    expense={
+        Object {
+            "amount": 4500,
+            "createdAt": 345600000,
+            "description": "Credit Card",
+            "id": "3",
+            "note": "",
+          }
+    }
+    history={
+        Object {
+            "push": [Function],
+          }
+    }
+    removeExpense={[Function]}
+/>,
+}
+`;
