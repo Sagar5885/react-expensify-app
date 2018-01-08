@@ -30,21 +30,21 @@ ShallowWrapper {
   "renderer": ReactShallowRenderer {
     "_context": Object {},
     "_element": <AddExpensePage
-      addExpense={[Function]}
       history={
             Object {
                   "push": [Function],
                 }
       }
+      startAddExpense={[Function]}
 />,
     "_instance": AddExpensePage {
       "context": Object {},
       "onSubmit": [Function],
       "props": Object {
-        "addExpense": [Function],
         "history": Object {
           "push": [Function],
         },
+        "startAddExpense": [Function],
       },
       "refs": Object {},
       "state": Object {},
@@ -70,12 +70,12 @@ ShallowWrapper {
   },
   "root": [Circular],
   "unrendered": <AddExpensePage
-    addExpense={[Function]}
     history={
         Object {
             "push": [Function],
           }
     }
+    startAddExpense={[Function]}
 />,
 }
 `;
