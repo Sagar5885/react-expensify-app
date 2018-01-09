@@ -67,7 +67,7 @@ ShallowWrapper {
                   "push": [Function],
                 }
       }
-      removeExpense={[Function]}
+      startRemoveExpense={[Function]}
 />,
     "_instance": EditExpensePage {
       "context": Object {},
@@ -85,7 +85,7 @@ ShallowWrapper {
         "history": Object {
           "push": [Function],
         },
-        "removeExpense": [Function],
+        "startRemoveExpense": [Function],
       },
       "refs": Object {},
       "state": Object {},
@@ -137,7 +137,7 @@ ShallowWrapper {
             "push": [Function],
           }
     }
-    removeExpense={[Function]}
+    startRemoveExpense={[Function]}
 />,
 }
 `;
