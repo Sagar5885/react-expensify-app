@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should correctly render LoginPage 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <button
+        onClick={undefined}
+    >
+        Login
+    </button>
+</div>,
+  "nodes": Array [
+    <div>
+      <button
+            onClick={undefined}
+      >
+            Login
+      </button>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <LoginPage />,
+    "_instance": null,
+    "_newState": null,
+    "_rendered": <div>
+      <button
+            onClick={undefined}
+      >
+            Login
+      </button>
+</div>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <LoginPage />,
+}
+`;

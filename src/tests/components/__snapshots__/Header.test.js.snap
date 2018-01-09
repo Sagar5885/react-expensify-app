@@ -27,6 +27,11 @@ ShallowWrapper {
     >
         Create Expanse
     </NavLink>
+    <button
+        onClick={[Function]}
+    >
+        Logout
+    </button>
 </header>,
   "nodes": Array [
     <header>
@@ -48,12 +53,19 @@ ShallowWrapper {
       >
             Create Expanse
       </NavLink>
+      <button
+            onClick={[Function]}
+      >
+            Logout
+      </button>
 </header>,
   ],
   "options": Object {},
   "renderer": ReactShallowRenderer {
     "_context": Object {},
-    "_element": <Header />,
+    "_element": <Header
+      startLogout={[Function]}
+/>,
     "_instance": null,
     "_newState": null,
     "_rendered": <header>
@@ -75,6 +87,11 @@ ShallowWrapper {
       >
             Create Expanse
       </NavLink>
+      <button
+            onClick={[Function]}
+      >
+            Logout
+      </button>
 </header>,
     "_rendering": false,
     "_updater": Updater {
@@ -84,6 +101,8 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Header />,
+  "unrendered": <Header
+    startLogout={[Function]}
+/>,
 }
 `;
