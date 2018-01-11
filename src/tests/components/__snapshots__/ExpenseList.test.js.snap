@@ -8,16 +8,74 @@ ShallowWrapper {
     "findWhereUnwrapped": [Function],
   },
   "length": 1,
-  "node": <div>
-    <p>
-        No expenses
-    </p>
+  "node": <div
+    className="content-container"
+>
+    <div
+        className="list-header"
+    >
+        <div
+            className="show-for-mobile"
+        >
+            Expenses
+        </div>
+        <div
+            className="show-for-desktop"
+        >
+            Expense
+        </div>
+        <div
+            className="show-for-desktop"
+        >
+            Amount
+        </div>
+    </div>
+    <div
+        className="list-body"
+    >
+        <div
+            className="list-item list-item--message"
+        >
+            <span>
+                No expenses
+            </span>
+        </div>
+    </div>
 </div>,
   "nodes": Array [
-    <div>
-      <p>
-            No expenses
-      </p>
+    <div
+      className="content-container"
+>
+      <div
+            className="list-header"
+      >
+            <div
+                  className="show-for-mobile"
+            >
+                  Expenses
+            </div>
+            <div
+                  className="show-for-desktop"
+            >
+                  Expense
+            </div>
+            <div
+                  className="show-for-desktop"
+            >
+                  Amount
+            </div>
+      </div>
+      <div
+            className="list-body"
+      >
+            <div
+                  className="list-item list-item--message"
+            >
+                  <span>
+                        No expenses
+                  </span>
+            </div>
+      </div>
 </div>,
   ],
   "options": Object {},
@@ -28,10 +86,39 @@ ShallowWrapper {
 />,
     "_instance": null,
     "_newState": null,
-    "_rendered": <div>
-      <p>
-            No expenses
-      </p>
+    "_rendered": <div
+      className="content-container"
+>
+      <div
+            className="list-header"
+      >
+            <div
+                  className="show-for-mobile"
+            >
+                  Expenses
+            </div>
+            <div
+                  className="show-for-desktop"
+            >
+                  Expense
+            </div>
+            <div
+                  className="show-for-desktop"
+            >
+                  Amount
+            </div>
+      </div>
+      <div
+            className="list-body"
+      >
+            <div
+                  className="list-item list-item--message"
+            >
+                  <span>
+                        No expenses
+                  </span>
+            </div>
+      </div>
 </div>,
     "_rendering": false,
     "_updater": Updater {
@@ -55,52 +142,102 @@ ShallowWrapper {
     "findWhereUnwrapped": [Function],
   },
   "length": 1,
-  "node": <div>
-    <ExpenseListItem
-        amount={195}
-        createdAt={0}
-        description="Gum"
-        id="1"
-        note=""
-    />
-    <ExpenseListItem
-        amount={109500}
-        createdAt={-345600000}
-        description="Rent"
-        id="2"
-        note=""
-    />
-    <ExpenseListItem
-        amount={4500}
-        createdAt={345600000}
-        description="Credit Card"
-        id="3"
-        note=""
-    />
-</div>,
-  "nodes": Array [
-    <div>
-      <ExpenseListItem
+  "node": <div
+    className="content-container"
+>
+    <div
+        className="list-header"
+    >
+        <div
+            className="show-for-mobile"
+        >
+            Expenses
+        </div>
+        <div
+            className="show-for-desktop"
+        >
+            Expense
+        </div>
+        <div
+            className="show-for-desktop"
+        >
+            Amount
+        </div>
+    </div>
+    <div
+        className="list-body"
+    >
+        <ExpenseListItem
             amount={195}
             createdAt={0}
             description="Gum"
             id="1"
             note=""
-      />
-      <ExpenseListItem
+        />
+        <ExpenseListItem
             amount={109500}
             createdAt={-345600000}
             description="Rent"
             id="2"
             note=""
-      />
-      <ExpenseListItem
+        />
+        <ExpenseListItem
             amount={4500}
             createdAt={345600000}
             description="Credit Card"
             id="3"
             note=""
-      />
+        />
+    </div>
+</div>,
+  "nodes": Array [
+    <div
+      className="content-container"
+>
+      <div
+            className="list-header"
+      >
+            <div
+                  className="show-for-mobile"
+            >
+                  Expenses
+            </div>
+            <div
+                  className="show-for-desktop"
+            >
+                  Expense
+            </div>
+            <div
+                  className="show-for-desktop"
+            >
+                  Amount
+            </div>
+      </div>
+      <div
+            className="list-body"
+      >
+            <ExpenseListItem
+                  amount={195}
+                  createdAt={0}
+                  description="Gum"
+                  id="1"
+                  note=""
+            />
+            <ExpenseListItem
+                  amount={109500}
+                  createdAt={-345600000}
+                  description="Rent"
+                  id="2"
+                  note=""
+            />
+            <ExpenseListItem
+                  amount={4500}
+                  createdAt={345600000}
+                  description="Credit Card"
+                  id="3"
+                  note=""
+            />
+      </div>
 </div>,
   ],
   "options": Object {},
@@ -135,28 +272,53 @@ ShallowWrapper {
 />,
     "_instance": null,
     "_newState": null,
-    "_rendered": <div>
-      <ExpenseListItem
-            amount={195}
-            createdAt={0}
-            description="Gum"
-            id="1"
-            note=""
-      />
-      <ExpenseListItem
-            amount={109500}
-            createdAt={-345600000}
-            description="Rent"
-            id="2"
-            note=""
-      />
-      <ExpenseListItem
-            amount={4500}
-            createdAt={345600000}
-            description="Credit Card"
-            id="3"
-            note=""
-      />
+    "_rendered": <div
+      className="content-container"
+>
+      <div
+            className="list-header"
+      >
+            <div
+                  className="show-for-mobile"
+            >
+                  Expenses
+            </div>
+            <div
+                  className="show-for-desktop"
+            >
+                  Expense
+            </div>
+            <div
+                  className="show-for-desktop"
+            >
+                  Amount
+            </div>
+      </div>
+      <div
+            className="list-body"
+      >
+            <ExpenseListItem
+                  amount={195}
+                  createdAt={0}
+                  description="Gum"
+                  id="1"
+                  note=""
+            />
+            <ExpenseListItem
+                  amount={109500}
+                  createdAt={-345600000}
+                  description="Rent"
+                  id="2"
+                  note=""
+            />
+            <ExpenseListItem
+                  amount={4500}
+                  createdAt={345600000}
+                  description="Credit Card"
+                  id="3"
+                  note=""
+            />
+      </div>
 </div>,
     "_rendering": false,
     "_updater": Updater {

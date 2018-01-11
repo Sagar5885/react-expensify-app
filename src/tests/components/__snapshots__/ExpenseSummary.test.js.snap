@@ -8,26 +8,72 @@ ShallowWrapper {
     "findWhereUnwrapped": [Function],
   },
   "length": 1,
-  "node": <div>
-    <h1>
-        Viewing 
-        1
-         
-        expense
-         totalling 
-        $2.35
-    </h1>
-</div>,
-  "nodes": Array [
-    <div>
-      <h1>
+  "node": <div
+    className="page-header"
+>
+    <div
+        className="content-container"
+    >
+        <h1
+            className="page-header__title"
+        >
             Viewing 
-            1
+            <span>
+                1
+            </span>
              
             expense
              totalling 
-            $2.35
-      </h1>
+            <span>
+                $2.35
+            </span>
+        </h1>
+        <div
+            className="page-header__actions"
+        >
+            <Link
+                className="button"
+                replace={false}
+                to="/create"
+            >
+                Add Expense
+            </Link>
+        </div>
+    </div>
+</div>,
+  "nodes": Array [
+    <div
+      className="page-header"
+>
+      <div
+            className="content-container"
+      >
+            <h1
+                  className="page-header__title"
+            >
+                  Viewing 
+                  <span>
+                        1
+                  </span>
+                   
+                  expense
+                   totalling 
+                  <span>
+                        $2.35
+                  </span>
+            </h1>
+            <div
+                  className="page-header__actions"
+            >
+                  <Link
+                        className="button"
+                        replace={false}
+                        to="/create"
+                  >
+                        Add Expense
+                  </Link>
+            </div>
+      </div>
 </div>,
   ],
   "options": Object {},
@@ -39,15 +85,38 @@ ShallowWrapper {
 />,
     "_instance": null,
     "_newState": null,
-    "_rendered": <div>
-      <h1>
-            Viewing 
-            1
-             
-            expense
-             totalling 
-            $2.35
-      </h1>
+    "_rendered": <div
+      className="page-header"
+>
+      <div
+            className="content-container"
+      >
+            <h1
+                  className="page-header__title"
+            >
+                  Viewing 
+                  <span>
+                        1
+                  </span>
+                   
+                  expense
+                   totalling 
+                  <span>
+                        $2.35
+                  </span>
+            </h1>
+            <div
+                  className="page-header__actions"
+            >
+                  <Link
+                        className="button"
+                        replace={false}
+                        to="/create"
+                  >
+                        Add Expense
+                  </Link>
+            </div>
+      </div>
 </div>,
     "_rendering": false,
     "_updater": Updater {
@@ -72,26 +141,72 @@ ShallowWrapper {
     "findWhereUnwrapped": [Function],
   },
   "length": 1,
-  "node": <div>
-    <h1>
-        Viewing 
-        23
-         
-        expenses
-         totalling 
-        $235,123,409.87
-    </h1>
-</div>,
-  "nodes": Array [
-    <div>
-      <h1>
+  "node": <div
+    className="page-header"
+>
+    <div
+        className="content-container"
+    >
+        <h1
+            className="page-header__title"
+        >
             Viewing 
-            23
+            <span>
+                23
+            </span>
              
             expenses
              totalling 
-            $235,123,409.87
-      </h1>
+            <span>
+                $235,123,409.87
+            </span>
+        </h1>
+        <div
+            className="page-header__actions"
+        >
+            <Link
+                className="button"
+                replace={false}
+                to="/create"
+            >
+                Add Expense
+            </Link>
+        </div>
+    </div>
+</div>,
+  "nodes": Array [
+    <div
+      className="page-header"
+>
+      <div
+            className="content-container"
+      >
+            <h1
+                  className="page-header__title"
+            >
+                  Viewing 
+                  <span>
+                        23
+                  </span>
+                   
+                  expenses
+                   totalling 
+                  <span>
+                        $235,123,409.87
+                  </span>
+            </h1>
+            <div
+                  className="page-header__actions"
+            >
+                  <Link
+                        className="button"
+                        replace={false}
+                        to="/create"
+                  >
+                        Add Expense
+                  </Link>
+            </div>
+      </div>
 </div>,
   ],
   "options": Object {},
@@ -103,15 +218,38 @@ ShallowWrapper {
 />,
     "_instance": null,
     "_newState": null,
-    "_rendered": <div>
-      <h1>
-            Viewing 
-            23
-             
-            expenses
-             totalling 
-            $235,123,409.87
-      </h1>
+    "_rendered": <div
+      className="page-header"
+>
+      <div
+            className="content-container"
+      >
+            <h1
+                  className="page-header__title"
+            >
+                  Viewing 
+                  <span>
+                        23
+                  </span>
+                   
+                  expenses
+                   totalling 
+                  <span>
+                        $235,123,409.87
+                  </span>
+            </h1>
+            <div
+                  className="page-header__actions"
+            >
+                  <Link
+                        className="button"
+                        replace={false}
+                        to="/create"
+                  >
+                        Add Expense
+                  </Link>
+            </div>
+      </div>
 </div>,
     "_rendering": false,
     "_updater": Updater {

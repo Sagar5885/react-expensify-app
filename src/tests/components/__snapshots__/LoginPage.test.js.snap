@@ -8,20 +8,50 @@ ShallowWrapper {
     "findWhereUnwrapped": [Function],
   },
   "length": 1,
-  "node": <div>
-    <button
-        onClick={undefined}
+  "node": <div
+    className="box-layout"
+>
+    <div
+        className="box-layout__box"
     >
-        Login
-    </button>
+        <h1
+            className="box-layout__title"
+        >
+            Expensify
+        </h1>
+        <p>
+            Its time to get your expenses under control.
+        </p>
+        <button
+            className="button"
+            onClick={undefined}
+        >
+            Login with Google
+        </button>
+    </div>
 </div>,
   "nodes": Array [
-    <div>
-      <button
-            onClick={undefined}
+    <div
+      className="box-layout"
+>
+      <div
+            className="box-layout__box"
       >
-            Login
-      </button>
+            <h1
+                  className="box-layout__title"
+            >
+                  Expensify
+            </h1>
+            <p>
+                  Its time to get your expenses under control.
+            </p>
+            <button
+                  className="button"
+                  onClick={undefined}
+            >
+                  Login with Google
+            </button>
+      </div>
 </div>,
   ],
   "options": Object {},
@@ -30,12 +60,27 @@ ShallowWrapper {
     "_element": <LoginPage />,
     "_instance": null,
     "_newState": null,
-    "_rendered": <div>
-      <button
-            onClick={undefined}
+    "_rendered": <div
+      className="box-layout"
+>
+      <div
+            className="box-layout__box"
       >
-            Login
-      </button>
+            <h1
+                  className="box-layout__title"
+            >
+                  Expensify
+            </h1>
+            <p>
+                  Its time to get your expenses under control.
+            </p>
+            <button
+                  className="button"
+                  onClick={undefined}
+            >
+                  Login with Google
+            </button>
+      </div>
 </div>,
     "_rendering": false,
     "_updater": Updater {

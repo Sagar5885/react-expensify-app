@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Loading page render correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="loader"
+>
+    <img
+        className="loader__image"
+        src="/images/loader.gif"
+    />
+</div>,
+  "nodes": Array [
+    <div
+      className="loader"
+>
+      <img
+            className="loader__image"
+            src="/images/loader.gif"
+      />
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <LoadingPage />,
+    "_instance": null,
+    "_newState": null,
+    "_rendered": <div
+      className="loader"
+>
+      <img
+            className="loader__image"
+            src="/images/loader.gif"
+      />
+</div>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <LoadingPage />,
+}
+`;
